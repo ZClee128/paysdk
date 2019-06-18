@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  paysdkDemo
 //
-//  Created by lee on 2019/6/17.
+//  Created by lee on 2019/6/18.
 //  Copyright © 2019 xqc. All rights reserved.
 //
 

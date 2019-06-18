@@ -7,66 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B5B6DB222B78E7100C7E41F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B6DB122B78E7100C7E41F /* AppDelegate.m */; };
-		9B5B6DB522B78E7100C7E41F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B6DB422B78E7100C7E41F /* ViewController.m */; };
-		9B5B6DB822B78E7100C7E41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5B6DB622B78E7100C7E41F /* Main.storyboard */; };
-		9B5B6DBA22B78E7200C7E41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5B6DB922B78E7200C7E41F /* Assets.xcassets */; };
-		9B5B6DBD22B78E7200C7E41F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5B6DBB22B78E7200C7E41F /* LaunchScreen.storyboard */; };
-		9B5B6DC022B78E7200C7E41F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5B6DBF22B78E7200C7E41F /* main.m */; };
+		9B42800622B8890C00C80AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B42800522B8890C00C80AB3 /* AppDelegate.m */; };
+		9B42800922B8890C00C80AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B42800822B8890C00C80AB3 /* ViewController.m */; };
+		9B42800C22B8890C00C80AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B42800A22B8890C00C80AB3 /* Main.storyboard */; };
+		9B42800E22B8890E00C80AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B42800D22B8890E00C80AB3 /* Assets.xcassets */; };
+		9B42801122B8890E00C80AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B42800F22B8890E00C80AB3 /* LaunchScreen.storyboard */; };
+		9B42801422B8890E00C80AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B42801322B8890E00C80AB3 /* main.m */; };
+		9B42803C22B8C7C200C80AB3 /* paysdkFramwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B42803B22B8C7C200C80AB3 /* paysdkFramwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9B5B6DAD22B78E7100C7E41F /* paysdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paysdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B5B6DB022B78E7100C7E41F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9B5B6DB122B78E7100C7E41F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9B5B6DB322B78E7100C7E41F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9B5B6DB422B78E7100C7E41F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9B5B6DB722B78E7100C7E41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B5B6DB922B78E7200C7E41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B5B6DBC22B78E7200C7E41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9B5B6DBE22B78E7200C7E41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B5B6DBF22B78E7200C7E41F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B42800122B8890B00C80AB3 /* paysdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = paysdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B42800422B8890B00C80AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B42800522B8890C00C80AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B42800722B8890C00C80AB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B42800822B8890C00C80AB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B42800B22B8890C00C80AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B42800D22B8890E00C80AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B42801022B8890E00C80AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B42801222B8890E00C80AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B42801322B8890E00C80AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B42803B22B8C7C200C80AB3 /* paysdkFramwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = paysdkFramwork.framework; path = ../../paysdkFramwork/MyFramwork/paysdkFramwork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B5B6DAA22B78E7100C7E41F /* Frameworks */ = {
+		9B427FFE22B8890B00C80AB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B42803C22B8C7C200C80AB3 /* paysdkFramwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9B5B6DA422B78E7100C7E41F = {
+		9B427FF822B8890B00C80AB3 = {
 			isa = PBXGroup;
 			children = (
-				9B5B6DAF22B78E7100C7E41F /* paysdkDemo */,
-				9B5B6DAE22B78E7100C7E41F /* Products */,
+				9B42800322B8890B00C80AB3 /* paysdkDemo */,
+				9B42800222B8890B00C80AB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9B5B6DAE22B78E7100C7E41F /* Products */ = {
+		9B42800222B8890B00C80AB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B5B6DAD22B78E7100C7E41F /* paysdkDemo.app */,
+				9B42800122B8890B00C80AB3 /* paysdkDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B5B6DAF22B78E7100C7E41F /* paysdkDemo */ = {
+		9B42800322B8890B00C80AB3 /* paysdkDemo */ = {
 			isa = PBXGroup;
 			children = (
-				9B5B6DB022B78E7100C7E41F /* AppDelegate.h */,
-				9B5B6DB122B78E7100C7E41F /* AppDelegate.m */,
-				9B5B6DB322B78E7100C7E41F /* ViewController.h */,
-				9B5B6DB422B78E7100C7E41F /* ViewController.m */,
-				9B5B6DB622B78E7100C7E41F /* Main.storyboard */,
-				9B5B6DB922B78E7200C7E41F /* Assets.xcassets */,
-				9B5B6DBB22B78E7200C7E41F /* LaunchScreen.storyboard */,
-				9B5B6DBE22B78E7200C7E41F /* Info.plist */,
-				9B5B6DBF22B78E7200C7E41F /* main.m */,
+				9B42803B22B8C7C200C80AB3 /* paysdkFramwork.framework */,
+				9B42800422B8890B00C80AB3 /* AppDelegate.h */,
+				9B42800522B8890C00C80AB3 /* AppDelegate.m */,
+				9B42800722B8890C00C80AB3 /* ViewController.h */,
+				9B42800822B8890C00C80AB3 /* ViewController.m */,
+				9B42800A22B8890C00C80AB3 /* Main.storyboard */,
+				9B42800D22B8890E00C80AB3 /* Assets.xcassets */,
+				9B42800F22B8890E00C80AB3 /* LaunchScreen.storyboard */,
+				9B42801222B8890E00C80AB3 /* Info.plist */,
+				9B42801322B8890E00C80AB3 /* main.m */,
 			);
 			path = paysdkDemo;
 			sourceTree = "<group>";
@@ -74,13 +78,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9B5B6DAC22B78E7100C7E41F /* paysdkDemo */ = {
+		9B42800022B8890B00C80AB3 /* paysdkDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B5B6DC322B78E7200C7E41F /* Build configuration list for PBXNativeTarget "paysdkDemo" */;
+			buildConfigurationList = 9B42801722B8890E00C80AB3 /* Build configuration list for PBXNativeTarget "paysdkDemo" */;
 			buildPhases = (
-				9B5B6DA922B78E7100C7E41F /* Sources */,
-				9B5B6DAA22B78E7100C7E41F /* Frameworks */,
-				9B5B6DAB22B78E7100C7E41F /* Resources */,
+				9B427FFD22B8890B00C80AB3 /* Sources */,
+				9B427FFE22B8890B00C80AB3 /* Frameworks */,
+				9B427FFF22B8890B00C80AB3 /* Resources */,
+				9B42801F22B88A3F00C80AB3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -88,24 +93,24 @@
 			);
 			name = paysdkDemo;
 			productName = paysdkDemo;
-			productReference = 9B5B6DAD22B78E7100C7E41F /* paysdkDemo.app */;
+			productReference = 9B42800122B8890B00C80AB3 /* paysdkDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9B5B6DA522B78E7100C7E41F /* Project object */ = {
+		9B427FF922B8890B00C80AB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = xqc;
 				TargetAttributes = {
-					9B5B6DAC22B78E7100C7E41F = {
+					9B42800022B8890B00C80AB3 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9B5B6DA822B78E7100C7E41F /* Build configuration list for PBXProject "paysdkDemo" */;
+			buildConfigurationList = 9B427FFC22B8890B00C80AB3 /* Build configuration list for PBXProject "paysdkDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,55 +118,76 @@
 				en,
 				Base,
 			);
-			mainGroup = 9B5B6DA422B78E7100C7E41F;
-			productRefGroup = 9B5B6DAE22B78E7100C7E41F /* Products */;
+			mainGroup = 9B427FF822B8890B00C80AB3;
+			productRefGroup = 9B42800222B8890B00C80AB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B5B6DAC22B78E7100C7E41F /* paysdkDemo */,
+				9B42800022B8890B00C80AB3 /* paysdkDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9B5B6DAB22B78E7100C7E41F /* Resources */ = {
+		9B427FFF22B8890B00C80AB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5B6DBD22B78E7200C7E41F /* LaunchScreen.storyboard in Resources */,
-				9B5B6DBA22B78E7200C7E41F /* Assets.xcassets in Resources */,
-				9B5B6DB822B78E7100C7E41F /* Main.storyboard in Resources */,
+				9B42801122B8890E00C80AB3 /* LaunchScreen.storyboard in Resources */,
+				9B42800E22B8890E00C80AB3 /* Assets.xcassets in Resources */,
+				9B42800C22B8890C00C80AB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B42801F22B88A3F00C80AB3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9B5B6DA922B78E7100C7E41F /* Sources */ = {
+		9B427FFD22B8890B00C80AB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B5B6DB522B78E7100C7E41F /* ViewController.m in Sources */,
-				9B5B6DC022B78E7200C7E41F /* main.m in Sources */,
-				9B5B6DB222B78E7100C7E41F /* AppDelegate.m in Sources */,
+				9B42800922B8890C00C80AB3 /* ViewController.m in Sources */,
+				9B42801422B8890E00C80AB3 /* main.m in Sources */,
+				9B42800622B8890C00C80AB3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9B5B6DB622B78E7100C7E41F /* Main.storyboard */ = {
+		9B42800A22B8890C00C80AB3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B5B6DB722B78E7100C7E41F /* Base */,
+				9B42800B22B8890C00C80AB3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		9B5B6DBB22B78E7200C7E41F /* LaunchScreen.storyboard */ = {
+		9B42800F22B8890E00C80AB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9B5B6DBC22B78E7200C7E41F /* Base */,
+				9B42801022B8890E00C80AB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -169,7 +195,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9B5B6DC122B78E7200C7E41F /* Debug */ = {
+		9B42801522B8890E00C80AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +254,7 @@
 			};
 			name = Debug;
 		};
-		9B5B6DC222B78E7200C7E41F /* Release */ = {
+		9B42801622B8890E00C80AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -281,32 +307,42 @@
 			};
 			name = Release;
 		};
-		9B5B6DC422B78E7200C7E41F /* Debug */ = {
+		9B42801822B8890E00C80AB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paysdkDemo",
+				);
 				INFOPLIST_FILE = paysdkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../paysdkFramwork/MyFramwork/paysdkFramwork.framework\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xqc.paysdkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9B5B6DC522B78E7200C7E41F /* Release */ = {
+		9B42801922B8890E00C80AB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/paysdkDemo",
+				);
 				INFOPLIST_FILE = paysdkDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../paysdkFramwork/MyFramwork/paysdkFramwork.framework\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xqc.paysdkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,25 +352,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9B5B6DA822B78E7100C7E41F /* Build configuration list for PBXProject "paysdkDemo" */ = {
+		9B427FFC22B8890B00C80AB3 /* Build configuration list for PBXProject "paysdkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B5B6DC122B78E7200C7E41F /* Debug */,
-				9B5B6DC222B78E7200C7E41F /* Release */,
+				9B42801522B8890E00C80AB3 /* Debug */,
+				9B42801622B8890E00C80AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9B5B6DC322B78E7200C7E41F /* Build configuration list for PBXNativeTarget "paysdkDemo" */ = {
+		9B42801722B8890E00C80AB3 /* Build configuration list for PBXNativeTarget "paysdkDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9B5B6DC422B78E7200C7E41F /* Debug */,
-				9B5B6DC522B78E7200C7E41F /* Release */,
+				9B42801822B8890E00C80AB3 /* Debug */,
+				9B42801922B8890E00C80AB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9B5B6DA522B78E7100C7E41F /* Project object */;
+	rootObject = 9B427FF922B8890B00C80AB3 /* Project object */;
 }
